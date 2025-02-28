@@ -13,7 +13,7 @@ To make things easy, I did these things:
 4. Trim the `etcd` dependency, see the `go.mod`
 5. Rename all test file except some `pkg/sql/parser` tests
 6. Add all necessary imports to vendor
-7. Remove the `panic` of meeting unregistried functions, see the [WrapFunction](pkg/sql/sem/tree/function_name.go#L67)
+7. Remove the `panic` of meeting unregistried functions, see the [WrapFunction](sql/sem/tree/function_name.go#L67)
 8. Other nasty things make the parser just work that I forgot :p
 
 # Who is using this

@@ -1,10 +1,9 @@
 package main
 
 import (
+	"github.com/iota-uz/psql-parser/sql/parser"
+	"github.com/iota-uz/psql-parser/walk"
 	"log"
-
-	"github.com/auxten/postgresql-parser/pkg/sql/parser"
-	"github.com/auxten/postgresql-parser/pkg/walk"
 )
 
 func main() {
